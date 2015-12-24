@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:src="@drawable/run"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id ="@+id/about"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Наше приложение предназначено для людей, которые хотят держать себя в форме. Оно в режиме реального времени отражает пройденную дистанцию и текущую скорость. После окончания забега можно увидеть всю актуальную информацию о нём."/>
+</LinearLayout>
